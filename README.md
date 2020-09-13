@@ -18,11 +18,11 @@ All executables have built in inputs without arguments. The output of the progra
 - ./ecg_test2
   A longer version of QT ECG data.
 - ./space_shuttle_test
- * Puppet withdraw data mentioned in the paper.
+ Puppet withdraw data mentioned in the paper.
 - ./space_shuttle_test2
- * Puppet pulled out data mentioned in the paper.
+ Puppet pulled out data mentioned in the paper.
 - ./mgh_test
- * MGHMF record 003 used in the paper.
+ MGHMF record 003 used in the paper.
 # Contact
 
 Contact me at qiao.kang@eecs.northwestern.edu if you have questions.
