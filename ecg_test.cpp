@@ -59,7 +59,7 @@ int main(){
 	DTYPE C1=2,C2=2,alpha=.729,bound=.8872983;
 	DTYPE learning_rate=0.05;
 	ACTIVATION_TYPE hidden_type=SIGMOID,output_type=SIGMOID;
-	std::vector<std::vector<DTYPE>*>* ecg_data= read_csv("ECG_anomaly.csv",UNIVARIATE,FALSE);
+	std::vector<std::vector<DTYPE>*>* ecg_data= read_csv("ECG_data.txt",UNIVARIATE,FALSE);
 	std::vector<std::vector<DTYPE>*>* data=new std::vector<std::vector<DTYPE>*>(TRAINING_SIZE);
 	std::vector<std::vector<DTYPE>*>* testing_data=new std::vector<std::vector<DTYPE>*>;
 
