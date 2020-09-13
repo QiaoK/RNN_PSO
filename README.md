@@ -11,7 +11,7 @@ Use make file to compile code and test cases with command "make".
 
 # Executables
 
-All executables have built in inputs without arguments. The output of the programs are training curves of methods used in the paper. To reproduce the comparisons in the paper, you need to modify the function "update_network_by_gradient" in https://github.com/QiaoK/RNN_PSO/blob/master/neural_network.cpp. The previous RNN trainings do not have the loop commented with "gradient within hidden node".
+All executables have built in inputs without arguments. The output of the programs are training curves of methods used in the paper. To reproduce the comparisons in the paper, you need to modify the function "update_network_by_gradient" in https://github.com/QiaoK/RNN_PSO/blob/master/neural_network.cpp. The previous RNN training method do not have the loop commented with "gradient within hidden node".
 
 - ./ecg_test
   Running QT ECG data mentioned in the paper
